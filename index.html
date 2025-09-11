@@ -28,14 +28,17 @@
                 <li class="nav-item">
                     <a href="#menu">Cardápio</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <a href="#testimonials">Avaliações</a>
-                </li>
+                </li> -->
             </ul>
-
-            <button class="btn-default">
-                Peça aqui
-            </button>
+            <a href="login.html">
+                <button class="btn-default">Peça aqui</button>
+            </a>
+           
+           <a href="login.html"> 
+                <button class="btn-default">Login</button>
+            </a>
 
             <button id="mobile_btn">
                 <i class="fa-solid fa-bars"></i>
@@ -48,15 +51,18 @@
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu">Cardápio</a>
+                    <a href="#menu">Menu</a>
                 </li>
-                <li class="nav-item">
+                <!-- mecher depois <li class="nav-item">
                     <a href="#testimonials">Avaliações</a>
-                </li>
+                </li>-->
             </ul>
 
             <button class="btn-default">
                 Peça aqui
+            </button>
+            <button class="btn-default">
+                Login
             </button>
         </div>
     </header>
@@ -76,7 +82,7 @@
 
                 <div id="cta_buttons">
                     <a href="#" class="btn-default">
-                        Ver cardápio
+                        Ver Menu
                     </a>
 
                     <a href="tel:+55555555555" id="phone_button">
@@ -103,13 +109,13 @@
             </div>
 
             <div id="banner">
-                <img src="src/images/hero.png" alt="">
+                <img src="https://www.blog.lolahome.com.br/wp-content/uploads/2013/09/mesa-de-cafe-da-manha-e1519750247556.jpg" alt="">
             </div>
         </section>
 
         <section id="menu">
             <h2 class="section-title">Cardápio</h2>
-            <h3 class="section-subtitle">Nossos cafés mais pedidos </h3>
+            <h3 class="section-subtitle">Nossas Cestas </h3>
 
             <div id="dishes">
                 <div class="dish">
@@ -120,11 +126,12 @@
                     <img src="src/images/dish.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Café tradicional
+                        Amanhecer Mineiro
                     </h3>
 
                     <span class="dish-description">
-                        O clássico que nunca sai de moda: café coado e sabor equilibrado.
+                        Pão de queijo fresquinho, Queijo Minas frescal, Doce de leite artesanal,
+                        Broa de milho, Café, Suco de laranja natural, Biscuits de nata
                     </span>
 
                     <div class="dish-rate">
@@ -137,7 +144,7 @@
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$5,00</h4>
+                        <h4>R$15,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -152,11 +159,11 @@
                     <img src="src/images/dish2.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Café Espresso
+                        Tarde Carioca
                     </h3>
 
                     <span class="dish-description">
-                        Intenso, encorpado e cheio de personalidade, para quem aprecia o café em sua essência.
+                        Biscoitos de polvilho, 
                     </span>
 
                     <div class="dish-rate">
@@ -240,9 +247,269 @@
                     </div>
                 </div>
             </div>
+             <h3 class="section-subtitle">Nossos Combos </h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Bossa Nova
+                    </h3>
+
+                    <span class="dish-description">
+                        Uma combinação delicada com um capuccino, croissant recheado de doce de leite e uma fatia de torta de limão.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span></span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$10,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Mineirinho Delícia
+                    </h3>
+
+                    <span class="dish-description">
+                        Pão de queijo mineiro, queijo Minas frescal, café com leite e uma fatia de broa de milho. Para complementar, um pedaço de goiabada cascão.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span></span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$11,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Nordeste ao Prato
+                    </h3>
+
+                    <span class="dish-description">
+                        Uma opção com sabores do Nordeste, incluindo cuscuz com ovo, queijo coalho grelhado e café preto. O suco de acerola traz um sabor refrescante e típico da região.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span></span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$11,50</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Café Carioca
+                    </h3>
+
+                    <span class="dish-description">
+                        Uma combinação clássica do Rio de Janeiro, com café fresco, pão de queijo quentinho, e suco natural de laranja.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span></span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+             <h3 class="section-subtitle">Nosso itens unitarios </h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="#" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Café tradicional
+                    </h3>
+
+                    <span class="dish-description">
+                        O clássico que nunca sai de moda: café coado e sabor equilibrado.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$5,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="1.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Café Espresso
+                    </h3>
+
+                    <span class="dish-description">
+                        Intenso, encorpado e cheio de personalidade, para quem aprecia o café em sua essência.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$7,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Café Gelado
+                    </h3>
+
+                    <span class="dish-description">
+                        Refrescante, saboroso e irresistível, perfeito para acompanhar os dias quentes.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$8,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Cappuccino
+                    </h3>
+
+                    <span class="dish-description">
+                        A união perfeita de espresso, leite cremoso e espuma suave, ideal para adoçar o momento.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$9,50</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
-        <section id="testimonials">
+        <!--<section id="testimonials">
             <img src="src/images/chef.png" id="testimonial_chef" alt="">
 
             <div id="testimonials_content">
@@ -300,13 +567,13 @@
                 <button class="btn-default">
                     Ver mais avaliações
                 </button>
-            </div>
+            </div> -->
         </section>
         <!-- SOBRE NÓS -->
         <section id="about">
             <div class="about-container">
                 <div class="about-image">
-                    <img src="src/images/about.jpg" alt="Sobre o Café & Aroma">
+                    <img src="src/images/logos.png" alt="Sobre o Café & Aroma">
                 </div>
                 <div class="about-content">
                     <h2 class="section-title">Sobre Nós</h2>
